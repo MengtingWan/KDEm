@@ -2,6 +2,7 @@ This repository includes data and code for the KDEm algorithm in following paper
 
 Mengting Wan, Xiangyu Chen, Lance Kaplan, Jiawei Han, Jing Gao, Bo Zhao, "From Truth Discovery to Trustworthy Opinion Discovery: An Uncertainty-Aware Quantitative Modeling Approach", in Proc. of 2016 ACM SIGKDD Conf. on Knowledge Discovery and Data Mining (KDD'16), San Francisco, CA, Aug. 2016
 
+If you have any questions, feel free to contact me at m5wan@ucsd.edu
 
 To run experiments on synthetic datasets -- Synthetic(unimodal) and Synthetic(mix), you can directly 
 
