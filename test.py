@@ -13,7 +13,7 @@ import test_syn_mix as syn_mix
 if __name__=="__main__":
     print "================================="
     #print "Definition: test -data -method"
-    print "Definition: test -data"
+    print "Definition: test data"
     print "Parameters"
     print "    data:    the dataset indicater"
     print "             should be one of 'synuni', 'synmix', 'realpop' and 'realtrip'"
@@ -28,14 +28,14 @@ if __name__=="__main__":
     #print "             'all': run KDEm/KDE, and all other baseline methods on indicated datsets"
     #print "             the default is 'kernel'"
     #print "             Notice that results from 'kernel' and 'all' are the same on Synthetic(mix) datasets and Tripadvisor datasets"
-    print "Example:     test -realpop"
+    print "Example:     test realpop"
     print "=================================="
     if(len(sys.argv)>1):
-        arg = sys.argv[0]
+        arg = sys.argv[1]
         if arg=="synuni":
-            syn_uni.run_syn_uni(m=200, n=100, k=50)
+            syn_uni.run_test_uni(m=200, n=100, k=50)
         elif arg=="synmix":
-            syn_mix.run_syn_mix(m=200, n=100, k=50)
+            syn_mix.run_test_mix(m=200, n=100, k=50)
         elif arg=="realpop":
             real.run_test_pop()
         elif arg=="realtrip":
@@ -43,6 +43,4 @@ if __name__=="__main__":
         else:
             "Error: the input parameter should be one of 'synuni', 'synmix', 'realpop' and 'realtrip'"
     else:
-        real.run_syn_uni(m=200, n=100, k=50)
-                
-            
+        real.run_test_pop(m=200, n=100, k=50)
