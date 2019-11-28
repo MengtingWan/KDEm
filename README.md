@@ -1,4 +1,5 @@
-# I'm very sorry that these files are significantly out-of-date!! I'll try to maintain if I have any bandwidth but would strongly suggest you consult many state-of-the-art open-sourced truth finding algorithms.
+## I'm very sorry that these files are significantly out-of-date!! 
+## I'll try to maintain if I have any bandwidth, but would strongly recommend you to consult many other state-of-the-art open-sourced truth finding algorithms.
 
 This repository includes data and code for following paper:
 
