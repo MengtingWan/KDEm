@@ -1,3 +1,5 @@
+# I'm very sorry that these files are significantly out-of-date!! I'll try to maintain if I have any bandwidth but would strongly suggest you consult many state-of-the-art open-sourced truth finding algorithms.
+
 This repository includes data and code for following paper:
 
 Mengting Wan, Xiangyu Chen, Lance Kaplan, Jiawei Han, Jing Gao, Bo Zhao, "From Truth Discovery to Trustworthy Opinion Discovery: An Uncertainty-Aware Quantitative Modeling Approach", in Proc. of 2016 ACM SIGKDD Conf. on Knowledge Discovery and Data Mining (KDD'16), San Francisco, CA, Aug. 2016
